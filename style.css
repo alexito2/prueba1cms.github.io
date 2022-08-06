@@ -1,0 +1,48 @@
+:root {
+    --white: #ffffff;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+    --light2: #7accf2;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--dark-x);
+}
+
+.text-light { color: var(--dark-x) !important; }
+.bg-dark { background-color: var(--white) !important; }
+.bg-dark-x { background-color: var(--light); }
+
+.btn {
+    min-height: 3.125rem;
+    font-weight: 600;
+}
+
+.form-control {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+.form-control:focus {
+    background-color: var(rgb(0, 0, 0));
+    outline: none;
+}
+
+.img-1 {
+    background-image: url('img-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('img-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img-3 {
+    background-image: url('img-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+

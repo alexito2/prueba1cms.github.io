@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="154px" viewBox="0 0 161 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="80.5" cy="77" rx="80.5" ry="77"></ellipse>
+    </defs>
+    <g id="RA-CAM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-1000.000000, -411.000000)">
+            <g id="Group-4" transform="translate(1000.000000, 411.000000)">
+                <g id="Mask-+-Rectangle-Copy-Mask-Copy-Copy">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#2AD6B0" xlink:href="#path-1"></use>
+                    <rect id="Mask" fill="#20A98A" mask="url(#mask-2)" x="100.625" y="87.0833333" width="109.25" height="22" rx="11"></rect>
+                    <rect id="Mask-Copy-2" fill="#20A98A" mask="url(#mask-2)" x="56.5416667" y="11" width="133.208333" height="29.3333333" rx="14.6666667"></rect>
+                    <rect id="Mask-Copy" fill="#20A98A" mask="url(#mask-2)" x="-31.625" y="72.4166667" width="99.6666667" height="10.0833333" rx="5.04166667"></rect>
+                    <rect id="Rectangle-Copy" fill="#20A98A" mask="url(#mask-2)" x="-40.25" y="109.083333" width="96.7916667" height="21.0833333" rx="10.5416667"></rect>
+                </g>
+                <ellipse id="Oval" fill="#20A98A" cx="27.4878049" cy="45.5426829" rx="8.83536585" ry="7.98170732"></ellipse>
+                <ellipse id="Oval-Copy" fill="#20A98A" cx="89.3353659" cy="136.628049" rx="8.83536585" ry="7.98170732"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

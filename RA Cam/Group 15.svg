@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="167px" height="80px" viewBox="0 0 167 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="42" cy="40" rx="41.5531915" ry="40"></ellipse>
+    </defs>
+    <g id="RA-CAM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-652.000000, -429.000000)">
+            <g id="Group-15" transform="translate(652.000000, 429.000000)">
+                <g id="Mask-+-Rectangle-Copy-Mask-Copy" transform="translate(46.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#9D32FF" xlink:href="#path-1"></use>
+                    <rect id="Mask" fill="#7C2AC8" mask="url(#mask-2)" x="38.8723404" y="5.16129032" width="56.2978723" height="11.1827957" rx="5.59139785"></rect>
+                    <rect id="Mask-Copy" fill="#7C2AC8" mask="url(#mask-2)" x="54.9574468" y="37.8494624" width="51.8297872" height="5.16129032" rx="2.58064516"></rect>
+                    <rect id="Rectangle-Copy" fill="#7C2AC8" mask="url(#mask-2)" x="-18.3191489" y="52.4731183" width="50.0425532" height="10.3225806" rx="5.16129032"></rect>
+                </g>
+                <path d="M46.122064,38 C5.79767343,39.6818687 -8.08509138,43.2152802 4.47376962,48.6002344 C23.3120611,56.6776657 103.410649,61.4748447 148.534448,50.9567433 C178.616982,43.9446758 171.943553,39.6257613 128.514164,38 C128.514164,38.5404989 128.514164,39.4844341 128.514164,40.8318056 C128.514164,42.179177 128.464255,43.3017501 128.364438,44.1995249 C141.518821,43.2991032 146.84948,43.8074494 144.356414,45.7245634 C142.469816,47.1753169 115.713157,51.9031443 87.8951837,52.3905229 C60.5726139,52.8692219 32.2257683,49.1354112 25.4609117,47.5 C16.359331,45.2996832 23.2463817,44.1995249 46.122064,44.1995249 L46.122064,38 Z" id="Path-4" fill="#EA3187"></path>
+            </g>
+        </g>
+    </g>
+</svg>

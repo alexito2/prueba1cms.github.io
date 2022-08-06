@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="153px" height="146px" viewBox="0 0 153 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Mask + Rectangle Copy Mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="76.5" cy="73" rx="76.5" ry="73"></ellipse>
+    </defs>
+    <g id="RA-CAM" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-143.000000, -477.000000)">
+            <g id="Mask-+-Rectangle-Copy-Mask" transform="translate(143.000000, 477.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#0058FF" xlink:href="#path-1"></use>
+                <rect id="Mask" fill="#054DD5" mask="url(#mask-2)" x="-8.82692308" y="36.5" width="103.961538" height="20.5897436" rx="10.2948718"></rect>
+                <rect id="Mask-Copy" fill="#054DD5" mask="url(#mask-2)" x="-38.25" y="68.3205128" width="95.1346154" height="9.35897436" rx="4.67948718"></rect>
+                <rect id="Rectangle-Copy" fill="#054DD5" mask="url(#mask-2)" x="85.3269231" y="95.4615385" width="92.1923077" height="19.6538462" rx="9.82692308"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
