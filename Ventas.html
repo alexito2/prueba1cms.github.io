@@ -73,12 +73,12 @@
                         <div class="col-md-6 col-lg-4">
                             <div class="card my-3">
             
-                                <img src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg" class="card-image-top" alt="thumbnail">
+                                <img src="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\DISPOSITIVOVIÑETA.png" class="card-image-top" alt="thumbnail">
             
                                 <div class="card-body">
-                                    <h3 class="card-title"><a href="#" class="text-secondary">What is HTML</a></h3>
-                                    <p class="card-text">HTML stands for Hyper Text Markup Language, It helps to learn web development and designing. </p>
-                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Read More</a>
+                                    <h3 class="card-title"><a href="#" class="text-secondary">CELL PHONE</a></h3>
+                                   
+                                    <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">$13.OO USD</a>
                                          <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1"  aria-labelledby="myLargeModalLabel" aria-hidden="true">
                                                 <div class="modal-dialog modal-lg">
                                                                                 <div class="modal-content"> 
@@ -166,7 +166,11 @@
                                                         <input type="text" id="inputCCV" maxlength="3">
                                                     </div>
                                                 </div>
-                                                <button type="submit" class="btn-enviar">Enviar</button>
+                                                <button type="submit" class="btn-enviar" >
+
+                                                    <a href="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\Cellphone.glb" download>Download</a>
+
+                                                </button>
                                             </form>
                                             </div>
                                             </div>
@@ -177,68 +181,570 @@
                                 </div>
                             </div>
                         </div>
+                                  <div class="col-md-6 col-lg-4">
+                                        <div class="card my-3">
+                        
+                                            <img src="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\PANTALLAVIÑETA.png" class="card-image-top" alt="thumbnail">
+                        
+                                            <div class="card-body">
+                                                <h3 class="card-title"><a href="#" class="text-secondary">SMART TV</a></h3>
+                                                
+                                                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">$18.OO USD</a>
+                                                     <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1"  aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                                            <div class="modal-content"> 
+                                                    <div class="modal-body">
+                                                <div class="contenedor">
+                                                        <section class="tarjeta" id="tarjeta">
+                                                            <div class="delantera">
+                                                                <div class="logo-marca" id="logo-marca">
+                                                                    <!-- <img src="img/logos/visa.png" alt=""> -->
+                                                                </div>
+                                                                <img src="img/chip-tarjeta.png" class="chip" alt="">
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="numero">
+                                                                        <p class="label">Número Tarjeta</p>
+                                                                        <p class="numero">#### #### #### ####</p>
+                                                                    </div>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo" id="nombre">
+                                                                            <p class="label">Nombre Tarjeta</p>
+                                                                            <p class="nombre">Jhon Doe</p>
+                                                                        </div>
+                                                
+                                                                        <div class="grupo" id="expiracion">
+                                                                            <p class="label">Expiracion</p>
+                                                                            <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                
+                                                            <div class="trasera">
+                                                                <div class="barra-magnetica"></div>
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="firma">
+                                                                        <p class="label">Firma</p>
+                                                                        <div class="firma"><p></p></div>
+                                                                    </div>
+                                                                    <div class="grupo" id="ccv">
+                                                                        <p class="label">CCV</p>
+                                                                        <p class="ccv"></p>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
+                                                                <a href="#" class="link-banco">www.tubanco.com</a>
+                                                            </div>
+                                                        </section>
+                                                
+                                                        <!-- Contenedor Boton Abrir Formulario -->
+                                                        <div class="contenedor-btn">
+                                                            <button class="btn-abrir-formulario" id="btn-abrir-formulario">
+                                                                <i class="fas fa-plus"></i>
+                                                            </button>
+                                                        </div>
+                                                
+                                                        <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                                                            <div class="grupo">
+                                                                <label for="inputNumero">Número Tarjeta</label>
+                                                                <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="grupo">
+                                                                <label for="inputNombre">Nombre</label>
+                                                                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="flexbox">
+                                                                <div class="grupo expira">
+                                                                    <label for="selectMes">Expiracion</label>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo-select">
+                                                                            <select name="mes" id="selectMes">
+                                                                                <option disabled selected>Mes</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                        <div class="grupo-select">
+                                                                            <select name="year" id="selectYear">
+                                                                                <option disabled selected>Año</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                
+                                                                <div class="grupo ccv">
+                                                                    <label for="inputCCV">CCV</label>
+                                                                    <input type="text" id="inputCCV" maxlength="3">
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" class="btn-enviar" >
             
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card my-3">
+                                                                <a href="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\celular.glb" download>Download</a>
             
-                                <img src="https://images.pexels.com/photos/3848158/pexels-photo-3848158.jpeg" class="card-image-top" alt="thumbnail">
+                                                            </button>
+                                                        </form>
+                                                        </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="card my-3">
+                        
+                                            <img src="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\TAZAVIÑETA.png" class="card-image-top" alt="thumbnail">
+                        
+                                            <div class="card-body">
+                                                <h3 class="card-title"><a href="#" class="text-secondary">CUP</a></h3>
+                                               
+                                                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">$7.OO USD</a>
+                                                     <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1"  aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                                            <div class="modal-content"> 
+                                                    <div class="modal-body">
+                                                <div class="contenedor">
+                                                        <section class="tarjeta" id="tarjeta">
+                                                            <div class="delantera">
+                                                                <div class="logo-marca" id="logo-marca">
+                                                                    <!-- <img src="img/logos/visa.png" alt=""> -->
+                                                                </div>
+                                                                <img src="img/chip-tarjeta.png" class="chip" alt="">
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="numero">
+                                                                        <p class="label">Número Tarjeta</p>
+                                                                        <p class="numero">#### #### #### ####</p>
+                                                                    </div>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo" id="nombre">
+                                                                            <p class="label">Nombre Tarjeta</p>
+                                                                            <p class="nombre">Jhon Doe</p>
+                                                                        </div>
+                                                
+                                                                        <div class="grupo" id="expiracion">
+                                                                            <p class="label">Expiracion</p>
+                                                                            <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                
+                                                            <div class="trasera">
+                                                                <div class="barra-magnetica"></div>
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="firma">
+                                                                        <p class="label">Firma</p>
+                                                                        <div class="firma"><p></p></div>
+                                                                    </div>
+                                                                    <div class="grupo" id="ccv">
+                                                                        <p class="label">CCV</p>
+                                                                        <p class="ccv"></p>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
+                                                                <a href="#" class="link-banco">www.tubanco.com</a>
+                                                            </div>
+                                                        </section>
+                                                
+                                                        <!-- Contenedor Boton Abrir Formulario -->
+                                                        <div class="contenedor-btn">
+                                                            <button class="btn-abrir-formulario" id="btn-abrir-formulario">
+                                                                <i class="fas fa-plus"></i>
+                                                            </button>
+                                                        </div>
+                                                
+                                                        <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                                                            <div class="grupo">
+                                                                <label for="inputNumero">Número Tarjeta</label>
+                                                                <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="grupo">
+                                                                <label for="inputNombre">Nombre</label>
+                                                                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="flexbox">
+                                                                <div class="grupo expira">
+                                                                    <label for="selectMes">Expiracion</label>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo-select">
+                                                                            <select name="mes" id="selectMes">
+                                                                                <option disabled selected>Mes</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                        <div class="grupo-select">
+                                                                            <select name="year" id="selectYear">
+                                                                                <option disabled selected>Año</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                
+                                                                <div class="grupo ccv">
+                                                                    <label for="inputCCV">CCV</label>
+                                                                    <input type="text" id="inputCCV" maxlength="3">
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" class="btn-enviar" >
             
-                                <div class="card-body">
-                                    <h3 class="card-title"><a href="#" class="text-secondary">Why We Use HTML</a></h3>
-                                    <p class="card-text">We use HTML to make website and that website helps to gain very much knowledge.Pellentesque dictum consequat tincidunt. Sed tincidunt tortor nec vulputate gravida.</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                                                                <a href="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\celular.glb" download>Download</a>
             
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card my-3">
+                                                            </button>
+                                                        </form>
+                                                        </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
             
-                                <img src="https://images.pexels.com/photos/2343170/pexels-photo-2343170.jpeg" class="card-image-top" alt="thumbnail">
-                                <div class="card-body">
-                                    <h3 class="card-title"><a href="#" class="text-secondary">Where do people came from?</a></h3>
-                                    <p class="card-text">Pellentesque dictum consequat tincidunt. Sed tincidunt tortor nec vulputate gravida. Nam sapien nisi, malesuada at sapien suscipit,</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="card my-3">
+                        
+                                            <img src="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\PLANTAVIÑETA.png" class="card-image-top" alt="thumbnail">
+                        
+                                            <div class="card-body">
+                                                <h3 class="card-title"><a href="#" class="text-secondary">FLOWER POT</a></h3>
+                                               
+                                                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">$9.OO USD</a>
+                                                     <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1"  aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                                            <div class="modal-content"> 
+                                                    <div class="modal-body">
+                                                <div class="contenedor">
+                                                        <section class="tarjeta" id="tarjeta">
+                                                            <div class="delantera">
+                                                                <div class="logo-marca" id="logo-marca">
+                                                                    <!-- <img src="img/logos/visa.png" alt=""> -->
+                                                                </div>
+                                                                <img src="img/chip-tarjeta.png" class="chip" alt="">
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="numero">
+                                                                        <p class="label">Número Tarjeta</p>
+                                                                        <p class="numero">#### #### #### ####</p>
+                                                                    </div>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo" id="nombre">
+                                                                            <p class="label">Nombre Tarjeta</p>
+                                                                            <p class="nombre">Jhon Doe</p>
+                                                                        </div>
+                                                
+                                                                        <div class="grupo" id="expiracion">
+                                                                            <p class="label">Expiracion</p>
+                                                                            <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                
+                                                            <div class="trasera">
+                                                                <div class="barra-magnetica"></div>
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="firma">
+                                                                        <p class="label">Firma</p>
+                                                                        <div class="firma"><p></p></div>
+                                                                    </div>
+                                                                    <div class="grupo" id="ccv">
+                                                                        <p class="label">CCV</p>
+                                                                        <p class="ccv"></p>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
+                                                                <a href="#" class="link-banco">www.tubanco.com</a>
+                                                            </div>
+                                                        </section>
+                                                
+                                                        <!-- Contenedor Boton Abrir Formulario -->
+                                                        <div class="contenedor-btn">
+                                                            <button class="btn-abrir-formulario" id="btn-abrir-formulario">
+                                                                <i class="fas fa-plus"></i>
+                                                            </button>
+                                                        </div>
+                                                
+                                                        <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                                                            <div class="grupo">
+                                                                <label for="inputNumero">Número Tarjeta</label>
+                                                                <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="grupo">
+                                                                <label for="inputNombre">Nombre</label>
+                                                                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="flexbox">
+                                                                <div class="grupo expira">
+                                                                    <label for="selectMes">Expiracion</label>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo-select">
+                                                                            <select name="mes" id="selectMes">
+                                                                                <option disabled selected>Mes</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                        <div class="grupo-select">
+                                                                            <select name="year" id="selectYear">
+                                                                                <option disabled selected>Año</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                
+                                                                <div class="grupo ccv">
+                                                                    <label for="inputCCV">CCV</label>
+                                                                    <input type="text" id="inputCCV" maxlength="3">
+                                                                </div>
+                                                            </div>
+                                                            <button href="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\Flowerpot.glb" download type="submit" class="btn-enviar" >
             
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card my-3">
-                                <img src="https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg" class="card-image-top" alt="thumbnail">
-                                <div class="card-body">
-                                    <h3 class="card-title"><a href="#" class="text-secondary">What is Lorem Ipsum?</a></h3>
-                                    <p class="card-text">Pellentesque dictum consequat tincidunt. Sed tincidunt tortor nec vulputate gravida. Nam sapien nisi, malesuada at sapien suscipit.</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                                                                DESCARGAR
+                                                            
             
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card my-3">
+                                                            </button>
+                                                        </form>
+                                                        </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
             
-                                <img src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg" class="card-image-top" alt="thumbnail">
-                                <div class="card-body">
-                                    <h3 class="card-title"><a href="#" class="text-secondary">Where is my Pasta?</a></h3>
-                                    <p class="card-text">Pellentesque dictum consequat tincidunt. Sed tincidunt tortor nec vulputate gravida. Nam sapien nisi, malesuada at sapien suscipit,</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="card my-3">
+                        
+                                            <img src="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\OJOVIÑETA.png" class="card-image-top" alt="thumbnail">
+                        
+                                            <div class="card-body">
+                                                <h3 class="card-title"><a href="#" class="text-secondary">EYE</a></h3>
+                                               
+                                                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">$11.OO USD</a>
+                                                     <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1"  aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                                            <div class="modal-content"> 
+                                                    <div class="modal-body">
+                                                <div class="contenedor">
+                                                        <section class="tarjeta" id="tarjeta">
+                                                            <div class="delantera">
+                                                                <div class="logo-marca" id="logo-marca">
+                                                                    <!-- <img src="img/logos/visa.png" alt=""> -->
+                                                                </div>
+                                                                <img src="img/chip-tarjeta.png" class="chip" alt="">
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="numero">
+                                                                        <p class="label">Número Tarjeta</p>
+                                                                        <p class="numero">#### #### #### ####</p>
+                                                                    </div>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo" id="nombre">
+                                                                            <p class="label">Nombre Tarjeta</p>
+                                                                            <p class="nombre">Jhon Doe</p>
+                                                                        </div>
+                                                
+                                                                        <div class="grupo" id="expiracion">
+                                                                            <p class="label">Expiracion</p>
+                                                                            <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                
+                                                            <div class="trasera">
+                                                                <div class="barra-magnetica"></div>
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="firma">
+                                                                        <p class="label">Firma</p>
+                                                                        <div class="firma"><p></p></div>
+                                                                    </div>
+                                                                    <div class="grupo" id="ccv">
+                                                                        <p class="label">CCV</p>
+                                                                        <p class="ccv"></p>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
+                                                                <a href="#" class="link-banco">www.tubanco.com</a>
+                                                            </div>
+                                                        </section>
+                                                
+                                                        <!-- Contenedor Boton Abrir Formulario -->
+                                                        <div class="contenedor-btn">
+                                                            <button class="btn-abrir-formulario" id="btn-abrir-formulario">
+                                                                <i class="fas fa-plus"></i>
+                                                            </button>
+                                                        </div>
+                                                
+                                                        <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                                                            <div class="grupo">
+                                                                <label for="inputNumero">Número Tarjeta</label>
+                                                                <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="grupo">
+                                                                <label for="inputNombre">Nombre</label>
+                                                                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="flexbox">
+                                                                <div class="grupo expira">
+                                                                    <label for="selectMes">Expiracion</label>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo-select">
+                                                                            <select name="mes" id="selectMes">
+                                                                                <option disabled selected>Mes</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                        <div class="grupo-select">
+                                                                            <select name="year" id="selectYear">
+                                                                                <option disabled selected>Año</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                
+                                                                <div class="grupo ccv">
+                                                                    <label for="inputCCV">CCV</label>
+                                                                    <input type="text" id="inputCCV" maxlength="3">
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" class="btn-enviar" >
             
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card my-3">
+                                                                <a href="" download>Download</a>
             
-                                <img src="https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg" class="card-image-top" alt="thumbnail">
+                                                            </button>
+                                                        </form>
+                                                        </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
             
-                                <div class="card-body">
-                                    <h3 class="card-title"><a href="#" class="text-secondary">Why is sky blue ?</a></h3>
-                                    <p class="card-text">Pellentesque dictum consequat tincidunt. Sed tincidunt tortor nec vulputate gravida. Nam sapien nisi, malesuada at sapien suscipit.</p>
-                                    <a href="#" class="btn btn-primary">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="card my-3">
+                        
+                                            <img src="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\BALONVIÑETA.png" class="card-image-top" alt="thumbnail">
+                        
+                                            <div class="card-body">
+                                                <h3 class="card-title"><a href="#" class="text-secondary">BALL</a></h3>
+                                               
+                                                <a type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">$14.OO USD</a>
+                                                     <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1"  aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                            <div class="modal-dialog modal-lg">
+                                                                                            <div class="modal-content"> 
+                                                    <div class="modal-body">
+                                                <div class="contenedor">
+                                                        <section class="tarjeta" id="tarjeta">
+                                                            <div class="delantera">
+                                                                <div class="logo-marca" id="logo-marca">
+                                                                    <!-- <img src="img/logos/visa.png" alt=""> -->
+                                                                </div>
+                                                                <img src="img/chip-tarjeta.png" class="chip" alt="">
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="numero">
+                                                                        <p class="label">Número Tarjeta</p>
+                                                                        <p class="numero">#### #### #### ####</p>
+                                                                    </div>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo" id="nombre">
+                                                                            <p class="label">Nombre Tarjeta</p>
+                                                                            <p class="nombre">Jhon Doe</p>
+                                                                        </div>
+                                                
+                                                                        <div class="grupo" id="expiracion">
+                                                                            <p class="label">Expiracion</p>
+                                                                            <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                
+                                                            <div class="trasera">
+                                                                <div class="barra-magnetica"></div>
+                                                                <div class="datos">
+                                                                    <div class="grupo" id="firma">
+                                                                        <p class="label">Firma</p>
+                                                                        <div class="firma"><p></p></div>
+                                                                    </div>
+                                                                    <div class="grupo" id="ccv">
+                                                                        <p class="label">CCV</p>
+                                                                        <p class="ccv"></p>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="leyenda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem, voluptates illo.</p>
+                                                                <a href="#" class="link-banco">www.tubanco.com</a>
+                                                            </div>
+                                                        </section>
+                                                
+                                                        <!-- Contenedor Boton Abrir Formulario -->
+                                                        <div class="contenedor-btn">
+                                                            <button class="btn-abrir-formulario" id="btn-abrir-formulario">
+                                                                <i class="fas fa-plus"></i>
+                                                            </button>
+                                                        </div>
+                                                
+                                                        <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                                                            <div class="grupo">
+                                                                <label for="inputNumero">Número Tarjeta</label>
+                                                                <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="grupo">
+                                                                <label for="inputNombre">Nombre</label>
+                                                                <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                                                            </div>
+                                                            <div class="flexbox">
+                                                                <div class="grupo expira">
+                                                                    <label for="selectMes">Expiracion</label>
+                                                                    <div class="flexbox">
+                                                                        <div class="grupo-select">
+                                                                            <select name="mes" id="selectMes">
+                                                                                <option disabled selected>Mes</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                        <div class="grupo-select">
+                                                                            <select name="year" id="selectYear">
+                                                                                <option disabled selected>Año</option>
+                                                                            </select>
+                                                                            <i class="fas fa-angle-down"></i>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                
+                                                                <div class="grupo ccv">
+                                                                    <label for="inputCCV">CCV</label>
+                                                                    <input type="text" id="inputCCV" maxlength="3">
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" class="btn-enviar" >
+            
+                                                                <a href="C:\Users\alehz\OneDrive\Escritorio\CMS REALIDAD AUMENTADA\CMSarchivosventas\celular.glb" download>Download</a>
+            
+                                                            </button>
+                                                        </form>
+                                                        </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
                 </div>
             </section>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
